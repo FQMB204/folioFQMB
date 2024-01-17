@@ -1,0 +1,132 @@
+* {
+    font-family: 'Acme', sans-serif;
+   /* cursor:url(../img/curseur.png);*/
+}
+
+body{
+    display: inline;
+    /*background:url(../img/bgtexture.jpg)*/
+    
+    background-color: #2c2c2c;
+
+}
+
+/* - - - ASIDE : le menu sur la gauche - - -*/ 
+aside{
+    background: url(../img/menu.jpg);   /*les .. sont obligatoire*/
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width:15% ;
+    height: 100%;
+}
+.moi{
+    border-radius: 40% 20% / 40% 20%;
+    background-color:rgba(62, 128, 206,0.5);
+    height: 50%;
+    padding-left: 10px;
+    width: 75%;
+    margin-left: 10%;
+    margin-top: 15%;
+
+}
+img.logo {
+    height: 150px;
+    width: 150px;
+    border: solid,5px, #2c2c2c;
+}
+
+aside div{
+    height: 100%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+
+}
+aside .menu {
+    display: flex;
+    flex-direction: column;
+    margin: 15%;
+    margin-top: 60%;
+
+}
+aside .menu a{
+    z-index: 1;
+    margin: 5px;
+    height: 15%;
+    color: white;
+}
+aside .menu a:hover{
+    border-radius: 10px;
+    align-content: center;
+    margin: 5px;
+    width: 75%;
+    height: 15%;
+    padding-left: 15px;
+    color: #2c2c2c;
+    background-color:rgba(62, 128, 206,0.5);
+    border: 5px, solid, #2c2c2c;
+}
+
+
+/* - - - MAIN les articles de la page - - -*/
+main{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+   /* color: white; */
+   width: 80%;
+    left: 20%;
+}
+
+main div {
+    border-radius: 30px;
+    margin-top: 10%;
+    width: 80%;
+    background-color: white;
+    align-items: center;
+
+}
+
+main div h3{
+    text-align: left;
+
+    margin: 0;
+    padding-left: 30px;
+    padding-top: 10px;
+    border-radius: 30px 30px 0px 0px; /* haut-gauche haut-droite bas-droite bas-gauche */
+    height:30px ;
+    background: url(../img/menu.jpg);
+    color: white;
+
+}
+
+main div.goto {
+    padding-top: 15px;
+    margin-top: 25px;
+    margin-left: 33%;
+    margin-bottom: 25px;
+    height: 40px;
+    width: 33%;
+    background: url(../img/menu.jpg);
+    color: white;
+
+}
+main div{
+    text-align: center;
+}
+main div a{
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+
+main div a:hover{
+    color: #2c2c2c;
+    font-size: x-large;
+
+}
+main p{
+    padding: 2%;
+}

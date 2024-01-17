@@ -1,0 +1,117 @@
+
+body{
+    background-color: #2c2c2c;
+    display: block;
+    padding: 0%;
+    font-family: 'Acme', sans-serif;
+    /* cursor:url(../img/curseur.png);*/
+}
+/* header, partie en haut de l'ecrant */
+header{
+    z-index: 10;
+    
+    background: url(../img/menu.jpg);
+    position: fixed;
+
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    height: 10%;
+    width: 100%;
+    color: white;
+
+}
+
+header div{
+    display: flex;
+    flex-direction: row;
+}
+
+header .logo{
+    height: 75px;
+    margin-right: 35px;
+}
+
+div.menu{
+    background-color:rgba(62, 128, 206,0.5);
+    border-radius: 15px;
+    z-index: 10;
+    width:120px;
+    margin-left: 80%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+}
+div.sub{
+    position: absolute;
+    display: none;
+    
+}
+
+header div:hover div.sub{
+    z-index: -1;
+    padding-top: 25px;
+    border-radius: 15px;
+    background: url(../img/menu.jpg);
+    border: 2px solid #2c2c2c;
+    width:120px;
+    display: flex;
+    flex-direction: column;
+}
+
+header a{
+    margin: 5px;
+    color: white;
+    margin-left: 5px;
+}
+header a:hover{
+    z-index: 10;
+    color: #2c2c2c;
+    padding-left: 10px;
+    background-color:rgba(62, 128, 206,0.5);
+    border-radius: 15px;
+}
+
+
+/* partie central de la page */
+
+
+main{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+   /* color: white;*/
+   width: 80%;
+    left: 20%;
+}
+main div {
+    border-radius: 30px;
+    margin-top: 10%;
+    width: 80%;
+    background-color: white;
+    align-items: center;
+
+}
+
+main div h3{
+    padding-left: 30px;
+    padding-top: 10px;
+    border-radius: 30px 30px 0px 0px; /* haut-gauche haut-droite bas-droite bas-gauche */
+    height:30px ;
+    margin: 0;
+    height:30px ;
+    background: url(../img/menu.jpg);
+    color: white;
+
+}
+
+main p{
+    padding: 2%;
+}
+
+.tempo{ /* Concerne les element temporaitre de la page */
+    padding-left: 25%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
