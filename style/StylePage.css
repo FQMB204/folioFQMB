@@ -106,8 +106,9 @@ main div h3{
 
 }
 
-main p{
-    padding: 2%;
+main div div{
+    padding-top: 0%;
+    padding-left: 2%;
 }
 
 .tempo{ /* Concerne les element temporaitre de la page */
