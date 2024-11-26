@@ -28,12 +28,13 @@ aside{
     width: 75%;
     margin-left: 10%;
     margin-top: 15%;
+    text-align: center ;
 
 }
 img.logo {
     height: 150px;
     width: 150px;
-    border: solid,5px, #2c2c2c;
+    
 }
 
 aside div{

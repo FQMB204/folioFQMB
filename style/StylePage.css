@@ -85,7 +85,7 @@ main{
    width: 80%;
     left: 20%;
 }
-main div {
+main .wide_card {
     border-radius: 30px;
     margin-top: 10%;
     width: 80%;
@@ -94,7 +94,7 @@ main div {
 
 }
 
-main div h3{
+main .wide_card h3{
     padding-left: 30px;
     padding-top: 10px;
     border-radius: 30px 30px 0px 0px; /* haut-gauche haut-droite bas-droite bas-gauche */
@@ -106,13 +106,51 @@ main div h3{
 
 }
 
-main div div{
+/* main .wide_card div{
     padding-top: 0%;
     padding-left: 2%;
-}
+} */
 
 .tempo{ /* Concerne les element temporaitre de la page */
     padding-left: 25%;
     padding-top: 5%;
     padding-bottom: 5%;
+}
+
+/*
+style des tableaux
+*/
+.table_veille{
+    margin-left: auto;
+    margin-right: auto;
+    outline: 2px solid black;
+    margin-bottom: 2%;
+}
+.table_veille td{
+    outline: 2px solid black;
+}
+.table_veille th{
+    outline: 2px solid black;
+}
+
+/*
+style des outils
+*/
+.tool_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}   
+div.tool_card{
+    justify-content: center;
+    background-color: lightgray;
+    width: 256px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    margin: 10px;
+}
+.tool_logo{
+    width: 256px;
+    height: 256px;
 }
