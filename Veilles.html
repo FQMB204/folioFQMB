@@ -7,7 +7,9 @@
         <link rel="stylesheet" type="text/css" href="style/StylePage.css">
         
     </head> <!-- partie superieur de la page-->
+
     <body>
+        <div class="background"></div>
         <header>
             <div class="moi">
               <img src="img/logo.png" class="logo" alt="">
@@ -29,15 +31,19 @@
         <aside></aside>
 
         <main>
+           
             <div class="wide_card">
                 <h3 id="tools">Outil de veilles</h3>
-                <p>La liste des outils que j'ai utilisé pour réalisé  mes veilles</p>
+                <p class="wide_card_txt">La liste des outils que j'ai utilisé pour réalisé  mes veilles</p>
 
                 <div class="tool_row">
                     <div class="tool_card">
-                        <img src="img/QuiteRSS-logo.png" class="tool_logo" alt="Tool Logo">
-                        <h4>QuiteRSS</h4>
-                        <p>intercepte les flux RSS a l’aide de mot clé et d'url</p>
+                        <a class="card_link" href="test.html">
+                            <img src="img/QuiteRSS-logo.png" class="tool_logo" alt="Tool Logo">
+                            <h4>QuiteRSS</h4>
+                            <p>intercepte les flux RSS a l’aide de mot clé et d'url</p>
+                        </a>
+
                     </div>
 
                     <!-- <div class="tool_card">
@@ -57,7 +63,7 @@
 
             <div class="wide_card">
                 <h3 id="machinelearning">Veilles sur le machinelearning</h3>
-                <p> Le "machine learning" désigne l'utilisation et le développement de systèmes informatiques capables d'apprendre et de s'adapter sans suivre d'instructions explicites, en utilisant des algorithmes et des modèles statistiques pour analyser et tirer des inférences à partir de modèles de données.</p>
+                <p class="wide_card_txt"> Le "machine learning" désigne l'utilisation et le développement de systèmes informatiques capables d'apprendre et de s'adapter sans suivre d'instructions explicites, en utilisant des algorithmes et des modèles statistiques pour analyser et tirer des inférences à partir de modèles de données.</p>
                 <table class="table_veille">
                     <thead>
                         <tr>
@@ -94,10 +100,12 @@
             
             <div class="wide_card">
                 <h3 id="moteursGraph">Veilles sur les moteurs graphiques</h3>
+                <p class="wide_card_txt"></p>
                 <img src="img/underconstruc.png" class="tempo" alt="">
             </div>
 
 
         </main>
     </body>
+</content>
 </html>
