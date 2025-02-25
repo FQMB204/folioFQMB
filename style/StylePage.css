@@ -136,9 +136,10 @@ main .wide_card h3.title{
 style des tableaux
 */
 .table_veille{
+    padding: 1%;
     margin-left: auto;
     margin-right: auto;
-    outline: 2px solid black;
+    /* outline: 2px solid black; */
     margin-bottom: 2%;
 }
 .table_veille td{
