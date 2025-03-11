@@ -97,9 +97,10 @@ main .wide_card {
     border-radius: 30px;
     margin-top: 10%;
     width: 80%;
-    background-color: white;
+    background-color: #2c2c2c;
     align-items: center;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+    color: white;
 
 
 }
@@ -168,6 +169,24 @@ div.tool_card{
     
 
 }
+div div.contact{
+    margin: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+div div.contact h1{
+    margin-left: 5%;
+
+}
+
+main div div.contact img{
+    height: 50px;
+    width: 50px;
+
+}
 
     
 div.tool_card:hover{
@@ -178,4 +197,24 @@ div.tool_card:hover{
 .tool_logo{
     width: 256px;
     height: 256px;
+}
+
+div.document{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(62, 128, 206,0.5);
+    width: 256px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    margin: 10px;
+    
+
 }

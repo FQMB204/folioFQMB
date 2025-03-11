@@ -29,7 +29,7 @@ aside{
     height: 100%;
 }
 .moi{
-    border-radius: 40% 20% / 40% 20%;
+    border-radius: 20% 20% / 20% 20%;
     background-color:rgba(62, 128, 206,0.5);
     height: 50%;
     padding-left: 10px;
@@ -56,28 +56,33 @@ aside div{
 aside .menu {
     display: flex;
     flex-direction: column;
-    margin: 15%;
+    margin: 0%;
     margin-top: 60%;
+
 
 }
 aside .menu a{
     z-index: 1;
     margin: 5px;
     height: 15%;
+    margin-left: 10%;
     color: white;
+    align-content: center;
 }
 aside .menu a:hover{
     border-radius: 10px;
     align-content: center;
     margin: 5px;
-    width: 75%;
-    height: 15%;
-    padding-left: 15px;
-    color: #2c2c2c;
+    width: 70%;
+    padding-left: 20%;
     background-color:rgba(62, 128, 206,0.5);
-    border: 5px, solid, #2c2c2c;
+    border: 2px, solid, white;
 }
-
+aside .menu hr{
+    padding-left: 5%;
+    width: 90%;
+    color: white;
+}
 
 /* - - - MAIN les articles de la page - - -*/
 main{
@@ -93,8 +98,9 @@ main div {
     border-radius: 30px;
     margin-top: 10%;
     width: 80%;
-    background-color: white;
+    background-color: #2c2c2c;
     align-items: center;
+    color: white;
 
 }
 
@@ -132,8 +138,10 @@ main div a{
 }
 
 main div a:hover{
-    color: #2c2c2c;
-    font-size: x-large;
+    color: white;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(62, 128, 206,0.5);
 
 }
 main p{
