@@ -218,3 +218,12 @@ div.document{
     
 
 }
+
+.card a{
+    color: white;
+}
+
+embed{
+    width: 100%;
+    height: 300px;
+}
